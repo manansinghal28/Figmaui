@@ -1,0 +1,720 @@
+.home-screen {
+  background-color: #000000;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.home-screen .div {
+  background-color: #000000;
+  height: 800px;
+  position: relative;
+  width: 1280px;
+}
+
+.home-screen .outdoor-climate {
+  height: 24px;
+  left: 28px;
+  position: absolute;
+  top: 34px;
+  width: 538px;
+}
+
+.home-screen .temp {
+  height: 23px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100px;
+}
+
+.home-screen .element-c {
+  height: 23px;
+  left: 25px;
+  position: absolute;
+  top: 0;
+  width: 77px;
+}
+
+.home-screen .text-wrapper {
+  color: #d9d9d9;
+  font-family: "Nunito", Helvetica;
+  font-size: 30px;
+  font-weight: 500;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 11.6px;
+  position: absolute;
+  top: 6px;
+  width: 72px;
+}
+
+.home-screen .ellipse {
+  border: 1px solid;
+  border-color: #d9d9d9;
+  border-radius: 2.5px;
+  height: 5px;
+  left: 70px;
+  position: absolute;
+  top: 0;
+  width: 5px;
+}
+
+.home-screen .temperature {
+  height: 23px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 12px;
+}
+
+.home-screen .humidity {
+  height: 24px;
+  left: 150px;
+  position: absolute;
+  top: 0;
+  width: 66px;
+}
+
+.home-screen .text-wrapper-2 {
+  color: #d9d9d9;
+  font-family: "Nunito", Helvetica;
+  font-size: 30px;
+  font-weight: 500;
+  left: 28px;
+  letter-spacing: 0;
+  line-height: 11.6px;
+  position: absolute;
+  text-align: center;
+  top: 7px;
+  white-space: nowrap;
+}
+
+.home-screen .img {
+  height: 24px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 16px;
+}
+
+.home-screen .UV-index {
+  height: 24px;
+  left: 401px;
+  position: absolute;
+  top: 0;
+  width: 54px;
+}
+
+.home-screen .div-wrapper {
+  height: 13px;
+  left: 36px;
+  position: absolute;
+  top: 6px;
+  width: 20px;
+}
+
+.home-screen .text-wrapper-3 {
+  color: #d9d9d9;
+  font-family: "Nunito", Helvetica;
+  font-size: 30px;
+  font-weight: 500;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 12.4px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+}
+
+.home-screen .img-2 {
+  height: 24px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 24px;
+}
+
+.home-screen .weather {
+  height: 24px;
+  left: 505px;
+  position: absolute;
+  top: 0;
+  width: 33px;
+}
+
+.home-screen .AQI {
+  height: 24px;
+  left: 264px;
+  position: absolute;
+  top: 0;
+  width: 87px;
+}
+
+.home-screen .AQI-wrapper {
+  height: 12px;
+  left: 51px;
+  position: absolute;
+  top: 8px;
+  width: 36px;
+}
+
+.home-screen .AQI-2 {
+  height: 12px;
+}
+
+.home-screen .AQI-3 {
+  height: 12px;
+  width: 36px;
+}
+
+.home-screen .AQI-4 {
+  height: 12px;
+  position: relative;
+  width: 38px;
+}
+
+.home-screen .text-wrapper-4 {
+  color: #d9d9d9;
+  font-family: "Nunito", Helvetica;
+  font-size: 30px;
+  font-weight: 500;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 11.6px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+}
+
+.home-screen .AQI-5 {
+  height: 24px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 39px;
+}
+
+.home-screen .indihood-map {
+  height: 624px;
+  left: 28px;
+  object-fit: cover;
+  position: absolute;
+  top: 97px;
+  width: 1161px;
+}
+
+.home-screen .scenes {
+  background-color: #171717;
+  height: 567px;
+  left: 1218px;
+  position: absolute;
+  top: 155px;
+  width: 62px;
+}
+
+.home-screen .scene {
+  height: 54px;
+  left: 5px;
+  position: absolute;
+  top: 45px;
+  width: 55px;
+}
+
+.home-screen .office-running-icon {
+  height: 24px;
+  left: 16px;
+  position: absolute;
+  top: 0;
+  width: 22px;
+}
+
+.home-screen .office-running {
+  color: #ffbb00;
+  font-family: "Nunito", Helvetica;
+  font-size: 12px;
+  font-weight: 600;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 14px;
+  position: absolute;
+  text-align: center;
+  top: 31px;
+  width: 53px;
+}
+
+.home-screen .scene-2 {
+  height: 43px;
+  left: 16px;
+  position: absolute;
+  top: 158px;
+  width: 33px;
+}
+
+.home-screen .text-wrapper-5 {
+  color: #ffffff;
+  font-family: "Nunito", Helvetica;
+  font-size: 12px;
+  font-weight: 600;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 14px;
+  position: absolute;
+  text-align: center;
+  top: 31px;
+  white-space: nowrap;
+  width: 31px;
+}
+
+.home-screen .party {
+  height: 24px;
+  left: 4px;
+  position: absolute;
+  top: 0;
+  width: 23px;
+}
+
+.home-screen .scene-3 {
+  height: 45px;
+  left: 4px;
+  position: absolute;
+  top: 260px;
+  width: 56px;
+}
+
+.home-screen .text-wrapper-6 {
+  color: #ffffff;
+  font-family: "Nunito", Helvetica;
+  font-size: 12px;
+  font-weight: 600;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 14px;
+  position: absolute;
+  text-align: center;
+  top: 31px;
+  white-space: nowrap;
+  width: 54px;
+}
+
+.home-screen .cleaning {
+  height: 24px;
+  left: 19px;
+  position: absolute;
+  top: 0;
+  width: 17px;
+}
+
+.home-screen .scene-4 {
+  height: 53px;
+  left: 11px;
+  position: absolute;
+  top: 364px;
+  width: 42px;
+}
+
+.home-screen .text-wrapper-7 {
+  color: #ffffff;
+  font-family: "Nunito", Helvetica;
+  font-size: 12px;
+  font-weight: 600;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 14px;
+  position: absolute;
+  text-align: center;
+  top: 31px;
+  width: 40px;
+}
+
+.home-screen .energy-save {
+  height: 24px;
+  left: 8px;
+  position: absolute;
+  top: 0;
+  width: 24px;
+}
+
+.home-screen .scene-5 {
+  height: 43px;
+  left: 10px;
+  position: absolute;
+  top: 478px;
+  width: 45px;
+}
+
+.home-screen .festive-icon {
+  height: 24px;
+  left: 10px;
+  position: absolute;
+  top: 0;
+  width: 24px;
+}
+
+.home-screen .text-wrapper-8 {
+  color: #ffffff;
+  font-family: "Nunito", Helvetica;
+  font-size: 12px;
+  font-weight: 600;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 14px;
+  position: absolute;
+  text-align: center;
+  top: 29px;
+  white-space: nowrap;
+  width: 43px;
+}
+
+.home-screen .home {
+  background: linear-gradient(
+    180deg,
+    rgb(69, 68, 68) 0%,
+    rgb(54, 54, 54) 16%,
+    rgb(44, 44, 44) 35.5%,
+    rgb(33.22, 32.92, 32.92) 51%,
+    rgb(35, 35, 35) 66%,
+    rgb(29, 28, 28) 81%,
+    rgb(22, 22, 22) 97.5%
+  );
+  border-radius: 15px;
+  height: 62px;
+  left: 694px;
+  position: absolute;
+  top: 15px;
+  width: 558px;
+}
+
+.home-screen .home-2 {
+  height: 30px;
+  left: 14px;
+  position: absolute;
+  top: 16px;
+  width: 30px;
+}
+
+.home-screen .water-consumption {
+  height: 44px;
+  left: 399px;
+  position: absolute;
+  top: 9px;
+  width: 72px;
+}
+
+.home-screen .flexcontainer {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 3.87px;
+  height: 44px;
+  left: 25px;
+  position: absolute;
+  top: 0;
+  width: 45px;
+}
+
+.home-screen .text {
+  align-self: stretch;
+  color: #2c2c2c;
+  font-family: "Nunito", Helvetica;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 20px;
+  position: relative;
+}
+
+.home-screen .span {
+  color: #2c2c2c;
+  font-family: "Nunito", Helvetica;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 20px;
+}
+
+.home-screen .vector {
+  height: 24px;
+  left: 0;
+  position: absolute;
+  top: 8px;
+  width: 19px;
+}
+
+.home-screen .alert {
+  height: 24px;
+  left: 497px;
+  position: absolute;
+  top: 20px;
+  width: 49px;
+}
+
+.home-screen .text-wrapper-9 {
+  color: #373737;
+  font-family: "Nunito", Helvetica;
+  font-size: 20px;
+  font-weight: 600;
+  left: 30px;
+  letter-spacing: 0;
+  line-height: 12.4px;
+  position: absolute;
+  top: 5px;
+  width: 17px;
+}
+
+.home-screen .total-water-usage {
+  height: 44px;
+  left: 301px;
+  position: absolute;
+  top: 9px;
+  width: 72px;
+}
+
+.home-screen .span-wrapper {
+  align-self: stretch;
+  color: #373737;
+  font-family: "Nunito", Helvetica;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 20px;
+  position: relative;
+}
+
+.home-screen .text-wrapper-10 {
+  color: #373737;
+  font-family: "Nunito", Helvetica;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 20px;
+}
+
+.home-screen .power-consumption {
+  height: 44px;
+  left: 79px;
+  position: absolute;
+  top: 9px;
+  width: 71px;
+}
+
+.home-screen .overlap-group {
+  height: 44px;
+  position: relative;
+  width: 73px;
+}
+
+.home-screen .power-consumption-2 {
+  height: 44px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 73px;
+}
+
+.home-screen .flexcontainer-2 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 3.87px;
+  height: 44px;
+  left: 25px;
+  position: absolute;
+  top: 0;
+  width: 46px;
+}
+
+.home-screen .p {
+  align-self: stretch;
+  color: #7cbb00;
+  font-family: "Nunito", Helvetica;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 20px;
+  position: relative;
+  text-align: center;
+}
+
+.home-screen .text-wrapper-11 {
+  color: #7cbb00;
+  font-family: "Nunito", Helvetica;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 20px;
+}
+
+.home-screen .clip-path-group {
+  height: 24px;
+  left: 0;
+  position: absolute;
+  top: 10px;
+  width: 13px;
+}
+
+.home-screen .vector-2 {
+  height: 24px;
+  left: 0;
+  position: absolute;
+  top: 10px;
+  width: 19px;
+}
+
+.home-screen .solar-reading {
+  height: 44px;
+  left: 185px;
+  position: absolute;
+  top: 9px;
+  width: 81px;
+}
+
+.home-screen .electricity {
+  height: 44px;
+  left: 35px;
+  position: absolute;
+  top: 0;
+  width: 48px;
+}
+
+.home-screen .flexcontainer-3 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 3.87px;
+  height: 44px;
+  position: relative;
+  width: 46px;
+}
+
+.home-screen .group {
+  height: 24px;
+  left: 0;
+  position: absolute;
+  top: 10px;
+  width: 29px;
+}
+
+.home-screen .halls {
+  height: 44px;
+  left: 244px;
+  position: absolute;
+  top: 738px;
+  width: 131px;
+}
+
+.home-screen .overlap {
+  background-color: #171717;
+  border-radius: 15px;
+  height: 44px;
+  position: relative;
+  width: 129px;
+}
+
+.home-screen .text-wrapper-12 {
+  color: #ffffff;
+  font-family: "Nunito", Helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  height: 39px;
+  left: 45px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 2px;
+  width: 39px;
+}
+
+.home-screen .meeting-rooms {
+  height: 44px;
+  left: 394px;
+  position: absolute;
+  top: 738px;
+  width: 160px;
+}
+
+.home-screen .overlap-2 {
+  background-color: #171717;
+  border-radius: 15px;
+  height: 44px;
+  position: relative;
+  width: 158px;
+}
+
+.home-screen .text-wrapper-13 {
+  color: #ffffff;
+  font-family: "Nunito", Helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  height: 39px;
+  left: 21px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 2px;
+  width: 117px;
+}
+
+.home-screen .washrooms {
+  height: 44px;
+  left: 573px;
+  position: absolute;
+  top: 738px;
+  width: 131px;
+}
+
+.home-screen .text-wrapper-14 {
+  color: #ffffff;
+  font-family: "Nunito", Helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  height: 39px;
+  left: 19px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 2px;
+  width: 92px;
+}
+
+.home-screen .common-areas {
+  height: 44px;
+  left: 723px;
+  position: absolute;
+  top: 738px;
+  width: 148px;
+}
+
+.home-screen .overlap-3 {
+  background-color: #171717;
+  border-radius: 15px;
+  height: 44px;
+  position: relative;
+  width: 146px;
+}
+
+.home-screen .text-wrapper-15 {
+  color: #ffffff;
+  font-family: "Nunito", Helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  height: 39px;
+  left: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 2px;
+  width: 116px;
+}
+
+.home-screen .outdoor {
+  height: 44px;
+  left: 890px;
+  position: absolute;
+  top: 738px;
+  width: 148px;
+}
